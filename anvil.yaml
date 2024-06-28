@@ -59,4 +59,7 @@ services:
 - source: /runtime/services/anvil/users.yml
   client_config: {allow_signup: true, enable_automatically: true, use_email: true, confirm_email: false, use_google: false}
   server_config: {user_table: users}
+- source: /runtime/services/anvil/email.yml
+  client_config: {}
+  server_config: {}
 metadata: {title: eeee, description: eeee, logo_img: 'asset:logo_small_icon_only_inverted.png'}
