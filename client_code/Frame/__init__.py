@@ -48,6 +48,10 @@ class Frame(FrameTemplate):
   #   anvil.users.logout()
   #   open_form('Logout')
 
+  def form_show(self, **event_args):
+    """This method is called when the form is shown on the page"""
+    pass
+
 
 
 
